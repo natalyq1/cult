@@ -1,0 +1,31 @@
+.container-about img {
+  display: none;
+}
+
+.container-text {
+  margin: auto 2em;
+}
+
+.container-text section {
+  background-color: #61c3d97b;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 7px;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container-about {
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-about img {
+    display: block;
+    padding: 2em 4em;
+    width: 300px;
+  }
+}
