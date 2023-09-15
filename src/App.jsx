@@ -2,13 +2,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutInfo from "./pages/AboutInfo";
-import Music from "./pages/Music";
-import PlasticArts from "./pages/PlasticArts";
-import Dance from "./pages/Dance";
-import Theater from "./pages/Theater";
 import Contact from "./pages/Contact";
 import User from "./pages/User";
-
+import Register from "./pages/Register";
+import MainServicePage from "./pages/products/MainService";
+import Music from "./pages/products/Music";
+import Theater from "./pages/products/Theater";
+import Dance from "./pages/products/Dance";
+import PlasticArts from "./pages/products/PLasticArts";
 
 function App() {
   return (
@@ -17,12 +18,15 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/about' element={<AboutInfo />}></Route>
-          <Route path='/musica' element={<Music />}></Route>
-          <Route path='/artesplasticas' element={<PlasticArts />}></Route>
-          <Route path='/danza' element={<Dance />}></Route>
-          <Route path='/teatro' element={<Theater />}></Route>
+          <Route path='/mainService' element={<MainServicePage />}></Route>
+
+          <Route path='/music' element={<Music />}></Route>
+          <Route path='/dance' element={<Dance />}></Route>
+          <Route path='/plasticart' element={<PlasticArts />}></Route>
+          <Route path='/theater' element={<Theater />}></Route>
           <Route path='/contacto' element={<Contact />}></Route>
           <Route path='/sesion' element={<User />}></Route>
+          <Route path='/registro' element={<Register />}></Route>
         </Routes>
       </BrowserRouter>
     </>

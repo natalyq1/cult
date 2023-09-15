@@ -1,14 +1,14 @@
 import Navbar from "../components/Navbar/Navbar";
-import Inicio from "../components/Inicio/Inicio";
+import Registro from "../components/Sesion/Registro";
 import Footer from "../components/Footer/Footer"
-const Theater = () => {
+const User = () => {
   return (
     <div>
       <Navbar />
-      <Inicio />
+      <Registro />
       <Footer />
     </div>
   )
 }
 
-export default Theater
+export default User

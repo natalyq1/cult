@@ -1,31 +1,69 @@
-import './About.css';
+import "./Registro.css";
+import { Link } from "react-router-dom";
 
-const About = () => {
-    return (
-        <fragment>
-            <main>
-                <section className="container-about">
-                    <article>
-                        <img src="../../../assets/img/logo_solo.png" alt="" />
-                    </article>
-                    <article className="container-text">
-                        <section>
-                        <h3>Quienes somos</h3>
-                            <p>Culturalmente Activo nace de como proyecto formativo de un grupo de estudiantes del SENA, este proyecto ve la necesidad de crear un medio de difusión en el cual diferentes tipos de artistas de la localidad de Usme pueden darse a conocer y así mismo ser contratados por la comunidad en general.</p>
-</section>
-<section>
-                        <h3>Misión</h3>
-                            <p>Generar un espacio donde artistas de la localidad de Usme puedan darse a conocer y llegar a ser visto por más personas con el fin de mejorar su visibilidad e ingresos económicos. </p>
-</section>
-<section>
-                        <h3>Visión</h3>
-                            <p>Crear conciencia de las muchas o pocas oportunidades laborales de cada localidad en el sector artístico.</p>
-</section>
-                    </article>
-                </section>
-            </main>
-        </fragment>
-    )
-}
+const Registro = () => {
+  return (
+    <fragment>
+      <main>
+        <section className="container-registro">
+          <article>
+            <img src="../../../assets/img/sesion/registro.svg" alt="" />
+          </article>
+          <article className="container-text">
+            <section>
+              <h3>Crear cuenta</h3>
 
-export default About
+              <form action="">
+                <p>
+                  ¿Ya estás registrado?{" "}
+                  <span>
+                                      <Link to="/sesion">Inicia sesión</Link>
+                  </span>{" "}
+                </p>
+                              <input type="text" name="" id="" placeholder="Nombre" />
+                              <input type="text" name="" id="" placeholder="Apellido" />
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Correo electrónico"
+                />
+                <input type="password" name="" id="" placeholder="Contraseña" />
+
+                <article className="checkbox">
+                  <input type="checkbox " name="" />
+                  <label htmlFor=""> <span> <a href=""> Acepta términos y condiciones.</a></span></label>
+                </article>
+
+                <button className="btn btn-one">
+                  <a href="">Regístrate</a>
+                </button>
+
+                <p className="sesion-links">O regístrate con:</p>
+                <div className="sesion-links">
+                  <article>
+                    <a href="">
+                      <i className="fa-brands fa-google"></i>
+                    </a>
+                  </article>
+                  <article>
+                    <a href="">
+                      <i className="fa-brands fa-instagram"></i>
+                    </a>
+                  </article>
+                  <article>
+                    <a href="">
+                      <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                  </article>
+                </div>
+              </form>
+            </section>
+          </article>
+        </section>
+      </main>
+    </fragment>
+  );
+};
+
+export default Registro;

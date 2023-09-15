@@ -6,7 +6,7 @@
 }
 
 .main-section h3 {
-  padding-top: 1em;
+  padding: 1em 1em 0 1em;
   text-align: center;
 }
 
@@ -35,17 +35,17 @@
 }
 
 .card1{
-   background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+   background-image: url(../../../assets/img/inicio/music.jpg);
 }
 
 .card2 {
-  background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+  background-image: url(../../../assets/img/inicio/plastic-art.jpg);
 }
 .card3 {
-  background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+  background-image: url(../../../assets/img/inicio/dance.jpg);
 }
 .card4 {
-  background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+  background-image: url(../../../assets/img/inicio/theater.jpg);
 }
 .card h4 {
   text-shadow: 2px 2px 3px black;

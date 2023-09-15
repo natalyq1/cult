@@ -5,14 +5,15 @@ const Navbar = () => {
   return (
     <fragment>
       <nav className="navbar">
-        <div className="logo">
-          <img src="../../../assets/img/logo_pequeño.png" alt="logo" />
+        <Link to="/"> <div className="logo">
+         <img src="../../../assets/img/logo_pequeño.png" alt="logo" />
           <section className="nombre">
             <h1 className="brand-text">
               Culturalmente <span>Activo</span>
             </h1>
           </section>
         </div>
+        </Link>
 
         <ul className="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -29,7 +30,7 @@ const Navbar = () => {
             </li>
 
             <li className="services">
-              <Link to="#">Servicios</Link>
+              <Link to="/mainService">Servicios</Link>
 
               <ul className="dropdown">
                

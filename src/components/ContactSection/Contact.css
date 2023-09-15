@@ -1,22 +1,21 @@
 .container-about iframe {
-  margin: 1em auto;
+  margin: 1.5em auto .2em auto;
   display: flex;
   width: 75%;
 }
 
 .container-form {
-  margin: auto 2em;
+  margin: 0 2em;
 }
 
 .container-form section {
   background-color: #61c3d97b;
   padding: 2em;
-  margin: 1em;
   border-radius: 7px;
 }
 
 form {
-  padding-top: 1em;
+  padding-top: .5em;
   display: flex;
   flex-direction: column;
   gap: 1em;
