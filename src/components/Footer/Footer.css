@@ -1,0 +1,25 @@
+  /*Footer*/
+  footer {
+    background: #61c3d9;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+  }
+  footer section {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 1em 0;
+    font-size: 1.4em;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+
+  footer article{
+    background-color: #3f7f8d;
+    padding: .5em .5em .6em .5em;
+    width: 25px;
+    height: 25px;
+    
+    border-radius: 50%;
+  }

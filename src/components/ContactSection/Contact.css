@@ -1,0 +1,44 @@
+.container-about iframe {
+  margin: 1em auto;
+  display: flex;
+}
+
+.container-form {
+  margin: auto 2em;
+}
+
+.container-form section {
+  background-color: #61c3d97b;
+  padding: 2em;
+  margin: 1em;
+  border-radius: 7px;
+}
+
+form {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+form input, form textarea{
+  padding: .5em;
+  border-radius: 7px;
+  border: 1px solid #61c3d9;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container-about {
+    display: flex;
+    /* border: 3px solid red; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-about img {
+    display: block;
+    padding: 2em 4em;
+    width: 300px;
+  }
+}

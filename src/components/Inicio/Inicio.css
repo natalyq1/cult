@@ -1,0 +1,110 @@
+.main-section {
+  height: 400px;
+  background-image: url('../../../assets/img/city_photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-section h3 {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.main-section button {
+  display: flex;
+  align-items: center;
+  margin: 1.5em auto;
+}
+
+.card {
+  width: 165px;
+  height: 250px;
+  border: 1px solid #61c3d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 7px;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.card1{
+   background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+}
+
+.card2 {
+  background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+}
+.card3 {
+  background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+}
+.card4 {
+  background-image: url(../../../assets/img/cantante-laura-gil.jpg);
+}
+.card h4 {
+  text-shadow: 2px 2px 3px black;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.cards-container {
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card img {
+  margin: 1em;
+  border-radius: 7px;
+}
+
+.content {
+  text-align: center;
+  opacity: 1;
+  text-shadow: 1px 1px 2px black;
+}
+
+.card:hover .content {
+  opacity: 1;
+  color: #fff;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+.position-btn{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  .content {
+    opacity: 0;
+  }
+
+  .card:hover .content {
+    opacity: 1;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .card {
+    width: 250px;
+    height: 400px;
+  }
+
+  .cards-container {
+    margin: 2em 6em;
+  }
+}
