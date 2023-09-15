@@ -1,6 +1,7 @@
 .container-about iframe {
   margin: 1em auto;
   display: flex;
+  width: 75%;
 }
 
 .container-form {
@@ -21,10 +22,12 @@ form {
   gap: 1em;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   padding: .5em;
   border-radius: 7px;
   border: 1px solid #61c3d9;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -34,11 +37,17 @@ form input, form textarea{
     /* border: 3px solid red; */
     justify-content: center;
     align-items: center;
+    margin-top: 1.5em;
   }
 
   .container-about img {
     display: block;
     padding: 2em 4em;
     width: 300px;
+  }
+
+  iframe {
+    height: 400px;
+    width: 400px;
   }
 }

@@ -7,33 +7,31 @@
   background-color: #61c3d9;
 }
 
-.nav-links a {
+.nav-links Link {
   color: #707070;
   text-decoration: none;
   font-weight: 700;
 }
-
-/* LOGO */
-
 
 /* NAVBAR MENU */
 .menu {
   display: flex;
   gap: 1em;
   font-size: 18px;
-  /*border: 2px solid rgb(10, 7, 204);*/
+  /* border: 2px solid rgb(10, 7, 204); */
 }
 
-.menu li:hover {
-  background-color: #61c3d9;
-  border-radius: 5px;
+.menu>li:hover {
+  text-decoration: underline;
+  border-radius: 7px;
   transition: 0.3s ease;
+  /* border: 2px solid rgb(7, 204, 92); */
 }
 
 .menu li {
-  /*padding: 5px 0px;*/
+  padding: 5px 0px;
   list-style: none;
-  /*border: 2px solid black;*/
+  /* border: 2px solid black; */
 
 }
 
@@ -43,27 +41,31 @@
 }
 
 .dropdown {
-  background-color: rgb(1, 139, 139);
+  background-color: #61c3d9;
   /*padding: 1em 0;*/
   position: absolute;
   /*WITH RESPECT TO PARENT*/
   display: none;
   border-radius: 8px;
   /*top: 35px;*/
+  /* border: 2px solid rgb(204, 7, 69); */
 }
 
 .dropdown li+li {
   /*margin-top: 10px;*/
+  /* border: 2px solid rgb(228, 26, 184); */
 }
 
-.dropdown li {
+.dropdown {
+  /* display: block; */
   padding: 0.5em 1em;
   width: 8em;
   text-align: center;
 }
 
-.dropdown li:hover {
-  background-color: #61c3d9;
+.dropdown li:hover,
+.dropdown>li:hover {
+  text-decoration: underline;
 }
 
 .services:hover .dropdown {
@@ -100,7 +102,7 @@ input[type=checkbox] {
 
   .menu li:hover {
     display: inline-block;
-    background-color: #61c3d9;
+    /* background-color: #61c3d9; */
     transition: 0.3s ease;
   }
 
@@ -114,21 +116,16 @@ input[type=checkbox] {
 
   .hamburger {
     display: block;
-    color: #707070;
     font-weight: 900;
   }
 
   .dropdown {
     left: 50%;
-    top: 50px;
-    transform: translateX(35%);
-    color: #707070;
-    background-color: #61c3d9;
+    top: 0px;
+    transform: translateX(30%);
+    background-color: #3fa3ba;
   }
 
-  .dropdown li:hover {
-    background-color: #61c3d9;
-  }
 }
 
 /*logo*/

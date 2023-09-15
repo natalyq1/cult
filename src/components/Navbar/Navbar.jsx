@@ -32,6 +32,7 @@ const Navbar = () => {
               <Link to="#">Servicios</Link>
 
               <ul className="dropdown">
+               
                 <li>
                   <Link to="/musica">Música</Link>
                 </li>
@@ -50,11 +51,12 @@ const Navbar = () => {
             <li>
               <Link to="/contacto">Contacto</Link>
             </li>
-            <li>
+           
+            {/* <li>
               <Link to="#">
                 <i className="fa-solid fa-magnifying-glass"></i>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/sesion">
                 <i className="fa-regular fa-circle-user"></i>
