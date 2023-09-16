@@ -32,6 +32,11 @@ const Registro = () => {
 
                 <article className="checkbox">
                   <input type="checkbox " name="" />
+                  <label htmlFor="">¿Eres artista?</label>
+                </article>
+
+                <article className="checkbox">
+                  <input type="checkbox " name="" />
                   <label htmlFor=""> <span> <a href=""> Acepta términos y condiciones.</a></span></label>
                 </article>
 
