@@ -7,9 +7,9 @@ import User from "./pages/User";
 import Register from "./pages/Register";
 import MainServicePage from "./pages/products/MainService";
 import Music from "./pages/products/Music";
-import Theater from "./pages/products/Theater";
 import Dance from "./pages/products/Dance";
 import PlasticArts from "./pages/products/PLasticArts";
+import Photography from "./pages/products/Photography";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path='/music' element={<Music />}></Route>
           <Route path='/dance' element={<Dance />}></Route>
           <Route path='/plasticart' element={<PlasticArts />}></Route>
-          <Route path='/theater' element={<Theater />}></Route>
+          <Route path='/photography' element={<Photography />}></Route>
           <Route path='/contacto' element={<Contact />}></Route>
           <Route path='/sesion' element={<User />}></Route>
           <Route path='/registro' element={<Register />}></Route>

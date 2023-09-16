@@ -44,10 +44,10 @@ const Inicio = () => {
                 </section>
 
                 <section className="card card4">
-                    <h4>Teatro</h4>
+                    <h4>Fotografía</h4>
                     <div className="content">
-                        <p>Es el arte de la narración en vivo, con actores y escenarios imaginarios e irreales cobran vida.</p>
-                        <button className="btn btn-one"><Link to="/theater">Ver más</Link></button>
+                        <p>A través de los lentes, explora un universo visual donde cada imagen es una historia única y emocionante. </p>
+                        <button className="btn btn-one"><Link to="/photography">Ver más</Link></button>
 
                     </div>
                 </section>

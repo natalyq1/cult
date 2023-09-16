@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 
-const TheaterService = () => {
+const PhotographyService = () => {
   return (
     <fragment>
       <article className="">
-        <h3>Teatro</h3>
+        <h3>Fotografía</h3>
       </article>
 
       <article className='cards-container'>
@@ -49,4 +49,4 @@ const TheaterService = () => {
   )
 }
 
-export default TheaterService
+export default PhotographyService

@@ -1,0 +1,210 @@
+.title-p {
+  text-align: center;
+  margin: 1em auto 0 auto;
+}
+
+.cards-container-p {
+  margin: 0 auto 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-product {
+  background-color: #61c3d97b;
+  border-radius: 7px;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+}
+
+.card-p {
+  width: 50%;
+  height: auto;
+  border: 1px solid #61c3d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.card-p-info {
+  width: 50%;
+  margin: .5em .8em;
+}
+
+.card-p-info p {
+  font-size: .85rem;
+}
+
+.icons-p {
+  display: flex;
+  justify-content: space-around;
+  padding: .5em 0;
+}
+
+.card-p-info span {
+  font-weight: 600;
+
+}
+
+input,
+textarea {
+  display: block;
+  padding: .3em;
+  margin: .3em .4em;
+  border-radius: 7px;
+  border: 1px solid #61c3d9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*fotos de Danza*/
+.product-d1 {
+  background-image: url(../../../assets/img/baile/ana-serrano-baile.jpg);
+}
+
+.product-d2 {
+  background-image: url(../../../assets/img/baile/angeles-baile.jpg);
+}
+
+.product-d3 {
+  background-image: url(../../../assets/img/baile/inquietas-baile.jpg);
+}
+
+.product-d4 {
+  background-image: url(../../../assets/img/baile/julio&lamorena-baile.jpg);
+}
+
+.product-d5 {
+  background-image: url(../../../assets/img/baile/lumina-baile.jpg);
+}
+
+.product-d6 {
+  background-image: url(../../../assets/img/baile/mario-mendez-baile.jpg);
+}
+
+.product-d7 {
+  background-image: url(../../../assets/img/baile/michael-alfonso-baile.jpg);
+}
+
+.product-d8 {
+  background-image: url(../../../assets/img/baile/roberto-cruz-baile.jpg);
+}
+
+/*fotos de musica*/
+.product-d9 {
+  background-image: url(../../../assets/img/musica/angela-parra-musico.jpg);
+}
+
+.product-d10 {
+  background-image: url(../../../assets/img/musica/camila-quiroz-musico.jpg);
+}
+
+.product-d11 {
+  background-image: url(../../../assets/img/musica/cantante-laura-gil.jpg);
+}
+
+.product-d12 {
+  background-image: url(../../../assets/img/musica/diego-posada-musico.jpg);
+}
+
+.product-d13 {
+  background-image: url(../../../assets/img/musica/german-lopez-musico.jpg);
+}
+
+.product-d14 {
+  background-image: url(../../../assets/img/musica/ivan-gomez-musico.jpg);
+}
+
+.product-d15 {
+  background-image: url(../../../assets/img/musica/maicol-piedraita-musico.jpg);
+}
+
+.product-d16 {
+  background-image: url(../../../assets/img/musica/martha-reyes-musico.jpg);
+}
+
+/*fotos de Artistas plásticos*/
+.product-d17 {
+  background-image: url(../../../assets/img/pintura/ariel-valles-pintor.jpg);
+}
+
+.product-d18 {
+  background-image: url(../../../assets/img/pintura/eduardo-gil-grafiti.jpg);
+}
+
+.product-d19 {
+  background-image: url(../../../assets/img/pintura/francisco-cordoba-pintor.jpg);
+}
+
+.product-d20 {
+  background-image: url(../../../assets/img/pintura/jaime-villamil-escultor.jpg);
+}
+
+.product-d21 {
+  background-image: url(../../../assets/img/pintura/joel-bermudez-pintor.jpg);
+}
+
+.product-d22 {
+  background-image: url(../../../assets/img/pintura/jonathan-burgo-dibujo.jpg);
+}
+
+.product-d23 {
+  background-image: url(../../../assets/img/pintura/juan-manrique-escultor.jpg);
+}
+
+.product-d24 {
+  background-image: url(../../../assets/img/pintura/nicolas-rendon-pintor.jpg);
+}
+
+/*fotos de fotografía*/
+.product-d25 {
+  background-image: url(../../../assets/img/fotografia/elena-torres-fotografo.jpg);
+}
+
+.product-d26 {
+  background-image: url(../../../assets/img/fotografia/emiliano-riveros-fotografo.jpg);
+}
+
+.product-d27 {
+  background-image: url(../../../assets/img/fotografia/emmanuel-acero-fotografo.jpg);
+}
+
+.product-d28 {
+  background-image: url(../../../assets/img/fotografia/felipe-santos-fotografo.jpg);
+}
+
+.product-d29 {
+  background-image: url(../../../assets/img/fotografia/guillermo-mora-fotografo.jpg);
+}
+
+.product-d30 {
+  background-image: url(../../../assets/img/fotografia/karol-pena-fotografo.jpg);
+}
+
+.product-d31 {
+  background-image: url(../../../assets/img/fotografia/manuel-alvarado-fotografo.jpg);
+}
+
+.product-d32 {
+  background-image: url(../../../assets/img/fotografia/nicole-silva-fotografo.jpg);
+}
+
+
+@media only screen and (min-width: 768px) {
+  .card-product {
+    background-color: #61c3d97b;
+    border-radius: 7px;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    width: 45%;
+  }
+}

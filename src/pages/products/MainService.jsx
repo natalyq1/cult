@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar";
-import MainService from "../../components/Services/MainService";
 import Footer from "../../components/Footer/Footer"
+import MainService from "../../components/Services/main/MainService";
 
 const MainServicePage = () => {
   return (

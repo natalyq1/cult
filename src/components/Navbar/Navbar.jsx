@@ -35,16 +35,16 @@ const Navbar = () => {
               <ul className="dropdown">
                
                 <li>
-                  <Link to="/musica">Música</Link>
+                  <Link to="/music">Música</Link>
                 </li>
                 <li>
-                  <Link to="/artesplasticas">Artes Plásticas</Link>
+                  <Link to="/plasticart">Artes Plásticas</Link>
                 </li>
                 <li>
-                  <Link to="/danza">Danza</Link>
+                  <Link to="/dance">Danza</Link>
                 </li>
                 <li>
-                  <Link to="/teatro">Fotografía</Link>
+                  <Link to="/theater">Fotografía</Link>
                 </li>
               </ul>
             </li>
