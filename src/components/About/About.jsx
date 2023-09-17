@@ -11,7 +11,7 @@ const About = () => {
                     <article className="container-text">
                         <section>
                             <h3>Quienes somos</h3>
-                            <p>Culturalmente Activo nace de como proyecto formativo de un grupo de estudiantes del SENA, este proyecto ve la necesidad de crear un medio de difusión en el cual diferentes tipos de artistas de la localidad de Usme pueden darse a conocer y así mismo ser contratados por la comunidad en general.</p>
+                            <p>Culturalmente Activo nace de como proyecto formativo de un grupo de estudiantes del SENA, este proyecto ve la necesidad de crear un medio de difusión en el cual diferentes tipos de artistas de la ciudad de Bogotá pueden darse a conocer y así mismo ser contratados por la comunidad en general.</p>
                         </section>
                         <section>
                             <h3>Misión</h3>

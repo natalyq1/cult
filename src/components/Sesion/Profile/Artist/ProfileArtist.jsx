@@ -9,6 +9,7 @@ const ProfileArtist = () => {
         <article className="container-text-p">
           <article>
             <h3>Mi perfil</h3>
+            <h4>Servicio 1:</h4>
 
             <form action="">
               <div className="container-input">
@@ -187,6 +188,8 @@ const ProfileArtist = () => {
                   </div>
                 </section>
               </div>
+
+              <button className="btn btn-one">Agregar otro servicio</button>
             </form>
           </article>
         </article>
