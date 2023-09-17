@@ -1,8 +1,23 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is about a bank for Bogota artists and it´s public whom can hire them through the web site.
 
-Currently, two official plugins are available:
+Clone the repository or download .zip.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Run comands in terminal:
+npm install
+npm run dev
+
+Open browser on:![127 0 0 1_5173_](https://github.com/natalyq1/cult/assets/98822525/fa423083-3823-4bbf-8987-5cfc1f2b3273)
+
+(http://127.0.0.1:5173/)
+
+##Desktop version
+
+![127 0 0 1_5173_](https://github.com/natalyq1/cult/assets/98822525/c3f252b7-a113-4e0b-b85b-f1c5350a0197)
+
+
+##Mobile version
+
+![127 0 0 1_5173_ (1)](https://github.com/natalyq1/cult/assets/98822525/d42a3749-2ad7-47a1-9e7c-faed22d58afd)
+
