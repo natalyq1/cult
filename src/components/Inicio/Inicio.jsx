@@ -10,7 +10,7 @@ const Inicio = () => {
           cotizaciones o regístrate como artista.
         </h3>
         <button className="btn btn-one">
-          <a href="">Conócelos</a>
+          <Link to="/mainService">Ver artistas</Link>
         </button>
       </article>
 
