@@ -10,6 +10,10 @@ import Music from "./pages/products/Music";
 import Dance from "./pages/products/Dance";
 import PlasticArts from "./pages/products/PLasticArts";
 import Photography from "./pages/products/Photography";
+import ProfilePageClient from "./pages/onsesion/client/Profile";
+import ServicePageClient from "./pages/onsesion/client/ProfileServices";
+import ProfilePageArtist from "./pages/onsesion/artist/Profile";
+import ServiceArtistPage from "./pages/onsesion/artist/ProfileServices";
 
 function App() {
   return (
@@ -27,6 +31,16 @@ function App() {
           <Route path='/contacto' element={<Contact />}></Route>
           <Route path='/sesion' element={<User />}></Route>
           <Route path='/registro' element={<Register />}></Route>
+
+  
+          <Route path='/profile-client' element={<ProfilePageClient />}></Route>
+          <Route path='/profile-client-service' element={<ServicePageClient />}></Route>
+
+          <Route path='/profile-artist' element={<ProfilePageArtist />}></Route>
+          <Route path='/profile-artist-service' element={<ServiceArtistPage />}></Route>
+
+         
+
         </Routes>
       </BrowserRouter>
     </>

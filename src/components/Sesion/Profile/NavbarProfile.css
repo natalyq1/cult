@@ -1,0 +1,148 @@
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+  background-color: #61c3d9;
+}
+
+.nav-links Link {
+  color: #707070;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  /* border: 2px solid rgb(10, 7, 204); */
+}
+
+.menu>li:hover {
+  text-decoration: underline;
+  border-radius: 7px;
+  transition: 0.3s ease;
+  /* border: 2px solid rgb(7, 204, 92); */
+}
+
+.menu li {
+  padding: 5px 0px;
+  list-style: none;
+  /* border: 2px solid black; */
+
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: #61c3d9;
+  /*padding: 1em 0;*/
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  /*top: 35px;*/
+  /* border: 2px solid rgb(204, 7, 69); */
+}
+
+.dropdown li+li {
+  /*margin-top: 10px;*/
+  /* border: 2px solid rgb(228, 26, 184); */
+}
+
+.dropdown {
+  /* display: block; */
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover,
+.dropdown>li:hover {
+  text-decoration: underline;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+
+/* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+  display: none;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: #61c3d9;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    /* background-color: #61c3d9; */
+    transition: 0.3s ease;
+  }
+
+  .menu li+li {
+    margin-top: 12px;
+  }
+
+  input[type=checkbox]:checked~.menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+    font-weight: 900;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 0px;
+    transform: translateX(30%);
+    background-color: #3fa3ba;
+  }
+
+}
+
+/*logo*/
+.logo {
+  color: rgb(60, 60, 59);
+  display: flex;
+  align-items: center;
+}
+
+/*brand name*/
+.brand-text {
+  margin-left: .5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.brand-text span {
+  font-weight: 500;
+}

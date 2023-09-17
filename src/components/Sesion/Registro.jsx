@@ -28,6 +28,7 @@ const Registro = () => {
                   id=""
                   placeholder="Correo electrónico"
                 />
+                <input type="number" name="" id="" placeholder="Celular"/>
                 <input type="password" name="" id="" placeholder="Contraseña" />
 
                 <article className="checkbox">

@@ -23,8 +23,19 @@ body {
   background-color: #61c3d9;
 }
 
+.btn-two {
+  background-color: #16d2cf;
+}
+
+.btn-cancel {
+  background-color: #78f564;
+}
+
 a {
   text-decoration: none;
   color: #525252;
   font-weight: 700;
+}
+i{
+  padding-left: .4em;
 }

@@ -5,14 +5,16 @@ const Navbar = () => {
   return (
     <fragment>
       <nav className="navbar">
-        <Link to="/"> <div className="logo">
-         <img src="../../../assets/img/logo_pequeño.png" alt="logo" />
-          <section className="nombre">
-            <h1 className="brand-text">
-              Culturalmente <span>Activo</span>
-            </h1>
-          </section>
-        </div>
+        <Link to="/">
+          {" "}
+          <div className="logo">
+            <img src="../../../assets/img/logo_pequeño.png" alt="logo" />
+            <section className="nombre">
+              <h1 className="brand-text">
+                Culturalmente <span>Activo</span>
+              </h1>
+            </section>
+          </div>
         </Link>
 
         <ul className="nav-links">
@@ -33,7 +35,6 @@ const Navbar = () => {
               <Link to="/mainService">Servicios</Link>
 
               <ul className="dropdown">
-               
                 <li>
                   <Link to="/music">Música</Link>
                 </li>
@@ -52,7 +53,7 @@ const Navbar = () => {
             <li>
               <Link to="/contacto">Contacto</Link>
             </li>
-           
+
             {/* <li>
               <Link to="#">
                 <i className="fa-solid fa-magnifying-glass"></i>
