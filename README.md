@@ -5,8 +5,11 @@ This project is about a bank for Bogota artists and it´s public whom can hire t
 Clone the repository or download .zip.
 
 Run comands in terminal:
+
 npm install
+
 npm run dev
+
 
 Open browser on:![127 0 0 1_5173_](https://github.com/natalyq1/cult/assets/98822525/fa423083-3823-4bbf-8987-5cfc1f2b3273)
 
