@@ -10,6 +10,9 @@ form input, select {
   border: 1px solid #61c3d9;
   font-family: 'Montserrat', sans-serif;
 }
+select {
+  margin-left: .4em;
+}
 
 span a,
 a {

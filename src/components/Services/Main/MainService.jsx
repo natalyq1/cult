@@ -1,10 +1,10 @@
-import './MainService.css';
+import "./MainService.css";
 import { Link } from "react-router-dom";
 
 const MainService = () => {
   return (
     <fragment>
-      <article className="title-p">
+      <article className="heading">
         <h3>Descubre un Mundo de Arte y Expresión Creativa</h3>
         <p>
           Todas los artistas y espacios culturales de Bogota en un solo lugar.
@@ -66,6 +66,6 @@ const MainService = () => {
       </article>
     </fragment>
   );
-}
+};
 
-export default MainService
+export default MainService;

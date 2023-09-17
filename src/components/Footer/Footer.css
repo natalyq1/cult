@@ -23,3 +23,6 @@
     
     border-radius: 50%;
   }
+  footer i{
+    padding-left: 0!important;
+  }
